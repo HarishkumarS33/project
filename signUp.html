@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>signUpForm</title>
+    <link rel="stylesheet" type="text/css" href="signUp.css">
+</head>
+<body>
+    <h2>Sign Up</h2><br>
+    <div class="login">
+        <form id="login" method="get" action="login.php">
+            <div class="form-group">
+                <label for="UserName">UserName:</label>
+                <input type="text" id="uName" name="uName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="btn">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="show_pass">
+                <input type="checkbox" onclick=showPassword() id="showPassword">Show Password
+            </div>
+            <div class="submit">
+                <button type="button" onclick="submitForm()">submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="singIn.js"></script>
+</html> 

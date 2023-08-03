@@ -1,0 +1,69 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
+}
+
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 90px;
+        background: #23463f;
+        border-radius: 40px ;
+
+}
+
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+
+label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"]
+{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #747070;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.submit button[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a{
+    float: right;
+    background-color: grey;
+}
+
+#id{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
